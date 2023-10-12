@@ -25,11 +25,7 @@ class Program2{
             if(currentValue < prev){
                 total -= currentValue;
             }else{total += currentValue;}
-            if (i < roman.length() - 1) {
-                char nextChar = roman.charAt(i + 1);
-                if (romanValuesMap.get(nextChar) >= currentValue) {
-                    total-=currentValue;
-                }}
+
             prev = currentValue;//Keeping track of the previous element
         }
         return total;
