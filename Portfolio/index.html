@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balu Madabattula - Portfolio</title>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Add Google Fonts (Roboto for body text and Montserrat for headings) -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@700&display=swap">
+    <!-- Add Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+</head>
+
+<body>
+
+    <!-- Navigation Section -->
+    <nav>
+        <ul>
+            <li><a href="#introduction"><i class="fas fa-home"></i> Introduction</a></li>
+            <li><a href="#education"><i class="fas fa-graduation-cap"></i> Education</a></li>
+            <li><a href="#projects"><i class="fas fa-laptop-code"></i> Projects</a></li>
+            <li><a href="#skills"><i class="fas fa-code"></i> Skills</a></li>
+            <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header Section -->
+    <header>
+        <!-- <i class="fa-regular fa-user"></i> Briefcase icon -->
+        <img class="author-picture" src="./123.jpg" alt="An image of author"/>
+        <h1>Balu Madabattula</h1>
+        <p>Graduated Engineer</p>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Introduction Section -->
+        <section id="introduction">
+            <h2>Intro</h2>
+            <p>Welcome to my portfolio! I am a passionate and motivated engineer. Looking forward to showcase my technical skills in which ever way possible.</p>
+            <p>Let's connect, collaborate, and create something extraordinary!</p>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education">
+            <h2>Education</h2>
+            <p>Bachelor of Technology in Information Technology from Anil Neerukonda Institute of Technology and Sciences, Graduation Year: 2023</p>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>Projects</h2>
+
+            <div class="project">
+                <h3><b>PseudoEye</b> - Final Year Project</h3>
+                <p><b>PseudoEye</b> is an Android Application that features product registration and authentication. It basically provides the location of product's available location.</p>
+            </div>
+
+            <div class="project">
+                <h3><b>Tasks</b></h3>
+                <p>Tasks is an web application developed using latest technologies like react, mongodb. It is use for time management.</p>
+                <p>Link to Repo: <a href="https://github.com/balu1100/tasks.git" target="_blank">Tasks</a></p>
+            </div>
+            <!-- Add more project divs as needed -->
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li><i class="fab fa-html5"></i> HTML</li>
+                <li><i class="fab fa-css3"></i> CSS</li>
+                <li><i class="fab fa-js"></i> JavaScript</li>
+                <li><i class="fab fa-python"></i> Python</li>
+                <li><i class="fa-solid fa-database"></i> RDBMS and SQL</li>
+
+                <!-- Add more skills as needed -->
+            </ul>
+        </section>
+
+        <!-- Social Section -->
+        <section id="social">
+            <h2>Connect with Me</h2>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/balu-m-841b82248/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin social-icon"></i></a>
+                <!-- <a href="https://twitter.com/yourtwitterprofile" target="_blank" title="Twitter"><i class="fab fa-twitter social-icon"></i></a> -->
+                <a href="https://github.com/balu1100/" target="_blank" title="GitHub"><i class="fab fa-github social-icon"></i></a>
+                <a href="mailto:balu.madabattula@gmail.com" target="_blank" title="Gmail"><i class="far fa-envelope social-icon"></i></a>
+              
+            </div>
+        </section>
+        <section class="resume-section">
+            <h2>Here's my Resume👇</h2>
+            <div class="resume">
+                <embed src="./Balu M Resume.pdf" type="application/pdf" width="60%" height="350px"/>
+                <p><a href="./Balu M Resume.pdf" download="Balu'sResume.pdf" title="Resume">resume.pdf</a></p>
+            </div>
+        </section>
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2 style="text-align: center;">Contact</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2023 Balu Madabattula</p>
+    </footer>
+
+</body>
+
+</html>
